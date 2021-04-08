@@ -1,0 +1,56 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "rn-nodeify --install fs,dgram,process,path,console --hack"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.4",
+    "@react-native-picker/picker": "^1.12.0",
+    "async": "^2.6.3",
+    "buffer": "^4.9.2",
+    "ftn-stl-viewer": "^0.0.2",
+    "node-libs-react-native": "^1.2.1",
+    "node-stl": "^0.7.2",
+    "react": "17.0.1",
+    "react-input-file": "^0.2.6",
+    "react-native": "0.64.0",
+    "react-native-cli": "^2.0.1",
+    "react-native-document-picker": "^5.0.2",
+    "react-native-dropdown-picker": "^4.0.2",
+    "react-native-fontawesome": "^7.0.0",
+    "react-native-fs": "^2.16.6",
+    "react-native-multiple-select-list": "^1.0.4",
+    "react-native-option-select": "^1.0.4",
+    "react-native-paystack-webview": "^3.2.1",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-shopify": "^0.2.7",
+    "react-native-switch-selector": "^2.1.4",
+    "react-native-vector-icons": "^3.0.0",
+    "react-native-webview": "^11.3.1",
+    "react-stl-file-viewer": "^0.0.5",
+    "react-stl-obj-viewer": "^1.2.0",
+    "rn-nodeify": "^10.2.0",
+    "shopify-buy": "^2.11.0",
+    "stl-viewer": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.22.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
